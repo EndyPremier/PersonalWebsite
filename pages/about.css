@@ -1,0 +1,46 @@
+/* CSS Document */
+
+body.bg {
+  background-image: url("../images/BASE6.jpg");
+}
+
+div.quote {
+  background: rgba(0,0,0,0.5);
+  padding: 1em;
+  margin-bottom: 0.8em;
+}
+
+div.quote p {
+  text-indent: 0;
+  letter-spacing: 0.1em;
+  line-height: 1.25;
+  font-size: 1.25em;
+}
+
+div.quote p::before {
+  font-weight: 500;
+  content: "“";
+}
+
+div.quote p::after {
+  font-weight: 500;
+  content: "”";
+}
+
+div.quote em {
+  font-style: normal;
+}
+
+div.quote em::before {
+  content: "— ";
+}
+
+h2.subhead {
+  letter-spacing: 0em;
+}
+
+@media (max-width: 612px) {
+  h2.subhead {
+    font-size: 1.2em;
+  }
+}

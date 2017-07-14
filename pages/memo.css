@@ -1,0 +1,35 @@
+/* CSS Document */
+
+body.bg {
+  background-image: url("../images/BASE5.jpg");
+}
+
+section.news-list {
+  padding-left: 1.5em;
+}
+
+section.news-list article {
+  margin-bottom: 1.5em;
+}
+
+article h3, article h4 {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+article h3 {
+  margin-bottom: 0.1em;
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+article h4 {
+  margin-bottom: 0.75em;
+  font-weight: 500;
+}
+
+section.text p {
+  letter-spacing: 0;
+  line-height: 1.25;
+}

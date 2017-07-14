@@ -1,0 +1,70 @@
+/* CSS Document */
+
+body.bg {
+  background-image:url('../images/BASE4.jpg')
+}
+
+div.button {
+  background: -webkit-linear-gradient(#424242,#212121);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#424242,#212121);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#424242,#212121);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#424242,#212121);
+  /* Standard syntax(must be last) */
+  text-shadow: none;
+  text-align: center;
+  text-transform: none;
+  border-radius: 1em;
+  padding: 0.5em 0.4em 0.8em;
+  box-shadow: 0 1px 0 #000, 0 0.2em 0.6em #3E2723;
+}
+
+div.button:hover {
+  background: -webkit-linear-gradient(#616161,#424242);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#616161,#424242);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#616161,#424242);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#616161,#424242);
+  /* Standard syntax(must be last) */
+}
+
+div.button i {
+  float: left;
+  font-size: 3.25em;
+}
+
+div.button h3 {
+  font-weight: 400;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+div.button p {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  letter-spacing: 0;
+  text-indent: 0;
+}
+
+@media (max-width: 446px) {
+  h2.subhead {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 480px) {
+  div.button {
+    padding: 0.5em 0.4em 0.6em;
+  }
+  
+  div.button h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.4em;
+  }
+}

@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+body.bg {
+  background: #3E2723;
+  background-image: url("images/BASE3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+div.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+div.main {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 1em;
+  text-shadow: 0 0 1.5em #3E2723, 0 0 1em #3E2723,
+               0 0 0.5em #000, 0 0 0.25em #000;
+  color: #FFF3E0; /* MATERIAL ORANGE 100 */
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+#grad {
+  background: -webkit-radial-gradient(rgba(62,39,35,0.6) 0%, rgba(62,39,35,0) 70%); /* Safari 5.1-6.0 */
+  background: -o-radial-gradient(rgba(62,39,35,0.6) 0%, rgba(62,39,35,0) 70%); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(rgba(62,39,35,0.6) 0%, rgba(62,39,35,0) 70%); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(rgba(62,39,35,0.6) 0%, rgba(62,39,35,0) 70%); /* Standard syntax (must be last) */
+}
+
+h1.name {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  font-size: 2.5em;
+  margin: 0px;
+}
+
+h2.descr {
+  font-size: 1em;
+  font-weight: 400;
+  margin: 0px;
+  margin-bottom: 1em;
+}
+
+nav {
+  margin-top: 2.5em;
+}
+
+/* LISTS */
+div.list {
+  margin-top: 0.5em;
+}
+
+div.list a {
+  text-decoration: none;
+  margin: 0em 0.25em;
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+div a:link, a:visited {
+  color: #fff3e0; /* MATERIAL ORANGE 100 */
+}
+
+div a:hover {
+  color: #fff;
+}
+
+div a:active {
+  color: #9e9e9e;
+}
+
+div.social {
+  font-size: 2em;
+  margin: 0.4em;
+}
+
+div.social a {
+  margin: 0em 0.3em;
+}
+
+p.credit {
+  text-transform: none;
+  margin-top: 2em
+}
+
+@media (max-width: 414px){
+  div.pages {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.25em
+  }
+}
+
+@media (min-width: 800px){
+  h1.name {
+    letter-spacing: 0.2em;
+    font-size: 3.5em;
+  }
+  
+  h2.descr {
+    letter-spacing: 0.3em;
+    line-height: 1.5;
+  }
+  
+  div.pages a {
+    font-size: 1.5em;
+    letter-spacing: 0.2em;
+  }
+}
+
+@media (min-width: 415px) and (max-width: 799px) {
+  h1.name {
+    letter-spacing: 0.1em;
+    font-size: 3em;
+  }
+  
+  h2.descr {
+    letter-spacing: 0.2em;
+  }
+  
+  div.pages a {
+    font-size: 1.25em;
+    letter-spacing: 0.2em;
+  }
+}
